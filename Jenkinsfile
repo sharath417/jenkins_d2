@@ -1,7 +1,5 @@
 pipeline{
-    agent{
-        label 'mvn-slave'
-    }
+    agent any
     stages{
         stage('Build'){
             steps{
